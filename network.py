@@ -1,4 +1,5 @@
-from scapy.all import IP, ICMP, send
+from scapy.layers.inet import IP, ICMP
+from scapy.sendrecv import send
 
 def send_packet():
     packet = IP(dst="127.0.0.1") / ICMP()
