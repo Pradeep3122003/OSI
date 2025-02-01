@@ -1,4 +1,6 @@
-from scapy.all import Ether, sendp
+import scapy
+from scapy.layers.l2 import Ether
+from scapy.sendrecv import sendp
 
 def send_frame():
     frame = Ether(dst="ff:ff:ff:ff:ff:ff")  # Broadcast frame
