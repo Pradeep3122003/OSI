@@ -6,11 +6,11 @@ def run_layer(file):
 
 if __name__ == "__main__":
     layers = [
-        "layer1_2_physical_data.py",
-        "layer3_network.py",
-        "layer4_transport.py",
-        "layer5_6_session_presentation.py",
-        "layer7_application.py"
+        "physical.py",
+        "network.py",
+        "transport.py",
+        "present.py",
+        "application.py"
     ]
 
     for layer in layers:
