@@ -2,7 +2,7 @@ import subprocess
 
 def run_layer(file):
     print(f"Running {file}...")
-    subprocess.run(["python3", file])
+    subprocess.run(["python", file])
 
 if __name__ == "__main__":
     layers = [
