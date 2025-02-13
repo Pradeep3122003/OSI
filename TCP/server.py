@@ -1,6 +1,7 @@
 from network import NetworkInterfaceLayer
 from application import ApplicationLayer
 from transport import TransportLayer
+from internet import InternetLayer
 
 def server():
     network_interface = NetworkInterfaceLayer('0.0.0.0', 12345)
