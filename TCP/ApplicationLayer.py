@@ -1,3 +1,4 @@
+from InternetLayer import InternetLayer
 class ApplicationLayer:
     def __init__(self, transport):
         self.transport = transport
